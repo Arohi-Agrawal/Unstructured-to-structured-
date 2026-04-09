@@ -1,0 +1,75 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "Account Statement",
+    "reportName": "Account Statement",
+    "institutionName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "accountNumber": "0210102835004",
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": "102935",
+    "address": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:0210102835004",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102935",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Currency :AED"
+    ],
+    "footers": [
+      "-65,608.140",
+      "6000-RKCE.AD",
+      "0.000",
+      "65.608.14",
+      "0.00"
+    ],
+    "headings": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:0210102835004",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102935",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Currency :AED"
+    ],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "account": "0210102835004",
+      "customer": "102935",
+      "currency": "AED"
+    }
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered table(s) from OCR word geometry."
+  ],
+  "issues": [],
+  "confidence": 0.92,
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_statement.csv"
+    ]
+  }
+}

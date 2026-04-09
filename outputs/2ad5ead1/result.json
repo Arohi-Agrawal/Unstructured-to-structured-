@@ -1,0 +1,110 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002"
+    },
+    "trn": "200000410700002",
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": "Advice Transaction Details (Tax Invoice)",
+    "customerId": null,
+    "openingBalance": null,
+    "closingBalance": null
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.75",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Structured tables were returned directly by OpenDataLoader.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "Table 1",
+      "columns": [
+        "column_1",
+        "PostingDate Txn.Date Terminal Batch Seq#Card No.",
+        "column_3",
+        "Type",
+        "Txn.Amount",
+        "Com. Amount Vat Amount",
+        "Net Amount Cback Amount",
+        "column_8",
+        "Balance",
+        "Credit"
+      ],
+      "rows": [
+        {
+          "column_1": "",
+          "PostingDate Txn.Date Terminal Batch Seq#Card No.": "12/26/2023",
+          "column_3": "12/26/2023 17934150 97 532 537882xxxxxx2844",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com. Amount Vat Amount": "2.080 0.208",
+          "Net Amount Cback Amount": "157.712",
+          "column_8": "0.000",
+          "Balance": "",
+          "Credit": ""
+        },
+        {
+          "column_1": "",
+          "PostingDate Txn.Date Terminal Batch Seq#Card No.": "12/26/2023",
+          "column_3": "12/26/2023 17934150 97 533 548891xxxxxx8918",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com. Amount Vat Amount": "2.080 0.208",
+          "Net Amount Cback Amount": "157.712",
+          "column_8": "0.000",
+          "Balance": "0.000",
+          "Credit": "0.000"
+        }
+      ],
+      "source": "opendataloader_structured",
+      "page_numbers": [
+        1
+      ],
+      "confidence": 0.78,
+      "file_name": "table_1.csv"
+    }
+  ],
+  "issues": [
+    "OCR table candidate is too small to validate confidently."
+  ],
+  "confidence": 0.65,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_1.csv"
+    ]
+  },
+  "jobId": "2ad5ead1"
+}

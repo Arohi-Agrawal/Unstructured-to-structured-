@@ -1,0 +1,143 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": "Account Statement",
+    "bankName": "Statement",
+    "accountNumber": "021010283S004",
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": "01 FEB 2022To D",
+    "periodEnd": "28 FEB 2022",
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:021010283S004",
+      "BAHRAIN NATIONAL INSURANCE CO."
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "Page: 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback used RapidOCR on page 1.",
+    "Rendered scanned PDF page images at high resolution and extracted OCR words with coordinates.",
+    "Reconstructed statement table from OCR lines after rejecting malformed OCR geometry output."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "Transaction Details",
+      "columns": [
+        "Value date",
+        "Description",
+        "Reference",
+        "Post date",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "rows": [
+        {
+          "Value date": "",
+          "Description": "Balance at Period Start",
+          "Reference": "",
+          "Post date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "229810.450"
+        },
+        {
+          "Value date": "09 FEB 22",
+          "Description": "Securities PurchaSe",
+          "Reference": "SCTRSC22038CHK4T 65500-RKCE.AD",
+          "Post date": "07 FEB 22",
+          "Debit": "-200398.55",
+          "Credit": "0",
+          "Balance": "29411.900"
+        },
+        {
+          "Value date": "17 FEB 22",
+          "Description": "Securities Purchase",
+          "Reference": "SCTRSC22046BHBTB 50000-AIRA.DU",
+          "Post date": "15FEB 22",
+          "Debit": "-7",
+          "Credit": "0",
+          "Balance": "-46358.140"
+        },
+        {
+          "Value date": "21 FEB 22",
+          "Description": "Securities Purchase",
+          "Reference": "SCTRSC22048NLZXQ 6000-RKCE.AD",
+          "Post date": "17FEB22",
+          "Debit": "-19250.00",
+          "Credit": "-65608.140",
+          "Balance": "-65608.140"
+        },
+        {
+          "Value date": "21 FEB 22",
+          "Description": "Transfer",
+          "Reference": "FT220S2YJ2S0 65.608.14",
+          "Post date": "21 FEB 22",
+          "Debit": "",
+          "Credit": "0",
+          "Balance": "0.000"
+        },
+        {
+          "Value date": "",
+          "Description": "Balance at Period End",
+          "Reference": "",
+          "Post date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "0.00"
+        }
+      ],
+      "source": "ocr_line_statement_reconstruction",
+      "page_numbers": [],
+      "confidence": 0.74,
+      "file_name": "BNI-SICO-AED - Bank Statement_table_01_transaction_details.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.7,
+  "extractionSummary": {
+    "tablesExtracted": 1,
+    "tableFiles": [
+      "BNI-SICO-AED - Bank Statement_table_01_transaction_details.csv"
+    ]
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": [
+      "BNI-SICO-AED - Bank Statement_table_01_transaction_details.csv"
+    ]
+  }
+}

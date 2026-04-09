@@ -1,0 +1,3 @@
+PostingDate,Txn.Date,Terminal,Batch,Seq#,Card No.,Type,Txn.Amount,Com.Amount,Vat Amount,Net Amount,Cback Amount
+12/26/2023,12/26/2023,17934150,97,532,537882xxxxxx2844,CR,160.000,2.080,0.208,157.712,0.000
+12/26/2023,12/26/2023,17934150,97,533,548891xxxxxx8918,CR,160.000,2.080,0.208,157.712,0.000

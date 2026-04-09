@@ -1,0 +1,45 @@
+{
+  "fileName": "CMS_jan_2026_sample_100_rows.txt",
+  "fileType": "txt",
+  "detectedType": "ep-txt",
+  "parserImplemented": false,
+  "parserUsed": "ep_txt_parser_placeholder",
+  "modeUsed": "not_implemented",
+  "metadata": {
+    "title": "CMS_jan_2026_sample_100_rows.txt",
+    "reportName": null,
+    "bankName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "EP TXT detection is wired in, but the parser remains a placeholder."
+  ],
+  "tables": [],
+  "issues": [
+    "EP TXT parser not implemented yet."
+  ],
+  "confidence": 0.0,
+  "exports": {
+    "jsonFile": "result.json",
+    "csvFiles": []
+  }
+}

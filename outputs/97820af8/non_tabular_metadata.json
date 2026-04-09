@@ -1,0 +1,87 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "Merchant Advice Transaction Details (Tax Invoice)",
+    "reportName": "Merchant Advice Transaction Details (Tax Invoice)",
+    "institutionName": "National Bank of Bahrain",
+    "accountNumber": "99556464",
+    "currency": "BHD",
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": "YUSUF KHALIL ALMOAYED AND SONS",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [
+      "TRN: 200000410700002"
+    ],
+    "footers": [
+      "Page:1 of 1"
+    ],
+    "headings": [
+      "TRN: 200000410700002"
+    ],
+    "paragraphs": [],
+    "narrativeText": [
+      "# National Bank of Bahrain",
+      "PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# Merchant Advice Transaction Details (Tax Invoice)",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "Statement Date",
+      "12/27/2023",
+      "Shop:74 Road:2802 Block:428 MANAMA KINGDOM OF BAHRAIN",
+      "000017934199",
+      "Merchant Code",
+      "Merchant Name",
+      "Bank Account",
+      "99556464",
+      "# Standard VAT Rate(10.000 %) applied on all commission: All Currency charged are in BHD.",
+      "This is a transaction advice. check your vouchers against the details above. Please call 1721 4433 in case of a statement to the contrary within 7 days from the date of the advice\" Kindly any",
+      "Page:1 of 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002",
+      "page": "1 of 1",
+      "merchantcode": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDAND S",
+      "bank account": "99556464",
+      "report taken by": "Fahad Alqasimi",
+      "merchant_code": "000017934199"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "YUSUF KHALIL ALMOAYED AND SONS"
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.90",
+    "Forced OCR for merchant-advice layout to improve table/metadata recovery.",
+    "Merchant-advice layout detected: extracted page into transaction and summary table blocks.",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR requested with high-resolution rendering target (320 DPI). Hybrid server must allow forced OCR.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Merchant summary block reconstructed as a separate table.",
+    "Recovered multi-block merchant advice tables from OCR/text lines.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "issues": [],
+  "confidence": 1.0,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_003_merchant_summary.csv",
+      "table_1.csv"
+    ]
+  }
+}

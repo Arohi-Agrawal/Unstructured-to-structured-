@@ -1,0 +1,20 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "unknown",
+  "parserImplemented": false,
+  "parserUsed": "format_router",
+  "modeUsed": "routing_failed",
+  "metadata": {},
+  "notes": [],
+  "tables": [],
+  "issues": [
+    "dict contains fields not in fieldnames: 'Reference', 'Description'"
+  ],
+  "confidence": 0.0,
+  "exports": {
+    "jsonFile": "",
+    "csvFiles": []
+  },
+  "jobId": "77d0b754"
+}

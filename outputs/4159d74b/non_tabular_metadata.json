@@ -1,0 +1,71 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "Merchant Advice Transaction Details (Tax Invoice)",
+    "reportName": "Merchant Advice Transaction Details (Tax Invoice)",
+    "institutionName": "National Bank of Bahrain",
+    "accountNumber": "99556464",
+    "currency": null,
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "# National Bank of Bahrain",
+      "NBB",
+      "PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# Merchant Advice Transaction Details (Tax Invoice)",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "Statement Date",
+      "12/27/2023",
+      "Shop:74 Road:2802 Block:428 MANAMA KINGDOM OF BAHRAIN",
+      "000017934199",
+      "Merchant Code",
+      "Merchant Name",
+      "Bank Account",
+      "99556464",
+      "200011241300002",
+      "# Standard VAT Rate(10.000 %) applied on all commission: All Currency charged are in BHD.",
+      "This is a transaction advice. check your vouchers against the details above. Please call 1721 4433 in case of a statement to the contrary within 7 days from the date of the advice\" Kindly any"
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002"
+    },
+    "trn": "200000410700002",
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": null
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.90",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "issues": [],
+  "confidence": 1.0,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_1.csv",
+      "table_34.csv",
+      "table_116.csv"
+    ]
+  }
+}

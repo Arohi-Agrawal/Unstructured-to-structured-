@@ -1,0 +1,68 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002",
+      "merchant code": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDANDS",
+      "report taken by": "Fahad Alqasimi",
+      "page": "1 of 1"
+    },
+    "customerId": null,
+    "openingBalance": null,
+    "closingBalance": null
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.00",
+    "Hybrid mode did not improve extraction quality; keeping local artifacts for downstream fallback.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Second-pass OCR row recovery rebuilt dropped rows before final validation.",
+    "CSV export was blocked because no reconstructed table passed strict structural validation.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced.",
+    "Metadata OCR signals detected but not fully resolved into canonical fields. Focus on extracted tables."
+  ],
+  "tables": [],
+  "issues": [
+    "Rejected OCR table candidate because most row content collapsed into too few columns.",
+    "Rejected OCR table candidate because row structure was too inconsistent after normalization.",
+    "Rejected OCR table candidate because visible body rows were missing after reconstruction.",
+    "PDF_VISIBLE_ROWS_MISSING",
+    "Rejected OCR table candidate because reconstructed logical row count did not match visible row structure.",
+    "PDF_TABLE_VALIDATION_FAILED"
+  ],
+  "confidence": 0.04,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": []
+  },
+  "jobId": "f62dc262"
+}

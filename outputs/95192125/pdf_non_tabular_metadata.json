@@ -1,0 +1,59 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "title": "BNI-SICO-AED - Bank Statement.pdf",
+  "reportName": "Account Statement",
+  "bankName": "Statement",
+  "accountNumber": "021010283S004",
+  "currency": "AED",
+  "statementDate": null,
+  "periodStart": "01 FEB 2022To D",
+  "periodEnd": "28 FEB 2022",
+  "merchantCode": null,
+  "merchantName": null,
+  "shop": null,
+  "address": null,
+  "trn": null,
+  "reportTakenBy": null,
+  "printedOn": null,
+  "pageInfo": [
+    "Pages: 1"
+  ],
+  "headers": [
+    "S/CO",
+    "Est1995",
+    "Account Statement",
+    "Account:021010283S004",
+    "BAHRAIN NATIONAL INSURANCE CO."
+  ],
+  "footers": [
+    "Page: 1"
+  ],
+  "headings": [],
+  "paragraphs": [],
+  "narrativeText": [
+    "Page: 1"
+  ],
+  "disclaimerText": [],
+  "summaryText": [],
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback used RapidOCR on page 1.",
+    "Rendered scanned PDF page images at high resolution and extracted OCR words with coordinates."
+  ],
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "extractionNotes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback used RapidOCR on page 1.",
+    "Rendered scanned PDF page images at high resolution and extracted OCR words with coordinates."
+  ]
+}

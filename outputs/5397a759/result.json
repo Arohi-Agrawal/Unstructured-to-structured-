@@ -1,0 +1,57 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": null,
+    "bankName": "Statement",
+    "accountNumber": null,
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback was skipped because direct OCR dependencies are not available."
+  ],
+  "tables": [],
+  "issues": [
+    "Tesseract OCR binary was not found. Install Tesseract and either add it to PATH or set TESSERACT_CMD to the full tesseract.exe path.",
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table.",
+    "Scanned or image-only PDF detected. Install hybrid support with pip install -U \"opendataloader-pdf[hybrid]\" and run opendataloader-pdf-hybrid --port 5002 --force-ocr"
+  ],
+  "confidence": 0.5,
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

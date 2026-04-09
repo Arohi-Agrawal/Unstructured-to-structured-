@@ -1,0 +1,77 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": "Advice Transaction Details (Tax Invoice)",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "# National Bank of Bahrain",
+      "NBB",
+      "PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# Merchant Advice Transaction Details (Tax Invoice)",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "Statement Date",
+      "12/27/2023",
+      "Shop:74 Road:2802 Block:428 MANAMA KINGDOM OF BAHRAIN",
+      "000017934199",
+      "Merchant Code",
+      "Merchant Name",
+      "Bank Account",
+      "99556464",
+      "200011241300002",
+      "# Standard VAT Rate(10.000 %) applied on all commission: All Currency charged are in BHD.",
+      "This is a transaction advice. check your vouchers against the details above. Please call 1721 4433 in case of a statement to the contrary within 7 days from the date of the advice\" Kindly any"
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002"
+    },
+    "trn": "200000410700002",
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": "Advice Transaction Details (Tax Invoice)",
+    "customerId": null,
+    "openingBalance": null,
+    "closingBalance": null
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.75",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Structured tables were returned directly by OpenDataLoader.",
+    "CSV export was blocked because no reconstructed table passed strict structural validation."
+  ],
+  "tables": [],
+  "issues": [
+    "OCR table candidate is too small to validate confidently.",
+    "PDF_TABLE_VALIDATION_FAILED"
+  ],
+  "confidence": 0.2,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": []
+  },
+  "jobId": "5144254f"
+}

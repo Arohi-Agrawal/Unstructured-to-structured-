@@ -1,0 +1,33 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "title": "BNI-SICO-AED - Bank Statement.pdf",
+  "reportName": null,
+  "bankName": null,
+  "accountNumber": null,
+  "currency": null,
+  "statementDate": null,
+  "periodStart": null,
+  "periodEnd": null,
+  "merchantCode": null,
+  "merchantName": null,
+  "shop": null,
+  "address": null,
+  "trn": null,
+  "reportTakenBy": null,
+  "printedOn": null,
+  "pageInfo": [],
+  "headers": [],
+  "footers": [],
+  "headings": [],
+  "paragraphs": [],
+  "narrativeText": [],
+  "disclaimerText": [],
+  "summaryText": [],
+  "notes": [],
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "extractionNotes": []
+}

@@ -1,0 +1,360 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "Merchant Advice Transaction Details (Tax Invoice)",
+    "reportName": "Merchant Advice Transaction Details (Tax Invoice)",
+    "institutionName": "National Bank of Bahrain",
+    "accountNumber": "99556464",
+    "currency": null,
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "# National Bank of Bahrain",
+      "NBB",
+      "PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# Merchant Advice Transaction Details (Tax Invoice)",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "Statement Date",
+      "12/27/2023",
+      "Shop:74 Road:2802 Block:428 MANAMA KINGDOM OF BAHRAIN",
+      "000017934199",
+      "Merchant Code",
+      "Merchant Name",
+      "Bank Account",
+      "99556464",
+      "200011241300002",
+      "# Standard VAT Rate(10.000 %) applied on all commission: All Currency charged are in BHD.",
+      "This is a transaction advice. check your vouchers against the details above. Please call 1721 4433 in case of a statement to the contrary within 7 days from the date of the advice\" Kindly any"
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002"
+    },
+    "trn": "200000410700002",
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": null
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.90",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "Table 1",
+      "columns": [
+        "column_1",
+        "PostingDate Txn.Date Terminal Batch Seq#Card No.",
+        "column_3",
+        "Type",
+        "Txn.Amount",
+        "Com. Amount Vat Amount",
+        "Net Amount Cback Amount",
+        "column_8"
+      ],
+      "rows": [
+        {
+          "column_1": "",
+          "PostingDate Txn.Date Terminal Batch Seq#Card No.": "12/26/2023",
+          "column_3": "12/26/2023 17934150 97 532 537882xxxxxx2844",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com. Amount Vat Amount": "2.080 0.208",
+          "Net Amount Cback Amount": "157.712",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "PostingDate Txn.Date Terminal Batch Seq#Card No.": "12/26/2023",
+          "column_3": "12/26/2023 17934150 97 533 548891xxxxxx8918",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com. Amount Vat Amount": "2.080 0.208",
+          "Net Amount Cback Amount": "157.712",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "PostingDate Txn.Date Terminal Batch Seq#Card No.": "Total",
+          "column_3": "",
+          "Type": "320.000",
+          "Txn.Amount": "4.160",
+          "Com. Amount Vat Amount": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_8": "0.000"
+        }
+      ],
+      "source": "opendataloader_structured",
+      "page_numbers": [
+        1
+      ],
+      "confidence": 0.92,
+      "file_name": "table_1.csv"
+    },
+    {
+      "table_id": "table_034",
+      "name": "Table 34",
+      "columns": [
+        "column_1",
+        "Batch Summary",
+        "Card Type",
+        "Count",
+        "Txn.Amount",
+        "Com Amount Vat Amount",
+        "column_7",
+        "Net Amount Cback Amount",
+        "column_9"
+      ],
+      "rows": [
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Visa",
+          "Count": "",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Visa DCC",
+          "Count": "",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Master",
+          "Count": "2",
+          "Txn.Amount": "",
+          "Com Amount Vat Amount": "4.160",
+          "column_7": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Master DCC",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Benefit",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Maestro",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Others",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com Amount Vat Amount": "0.000",
+          "column_7": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_9": "0.000"
+        },
+        {
+          "column_1": "",
+          "Batch Summary": "",
+          "Card Type": "Total",
+          "Count": "2",
+          "Txn.Amount": "320.000",
+          "Com Amount Vat Amount": "4.160",
+          "column_7": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_9": "0.000"
+        }
+      ],
+      "source": "opendataloader_structured",
+      "page_numbers": [
+        1
+      ],
+      "confidence": 0.92,
+      "file_name": "table_34.csv"
+    },
+    {
+      "table_id": "table_116",
+      "name": "Table 116",
+      "columns": [
+        "column_1",
+        "Card Type",
+        "Count",
+        "Txn Amount",
+        "Com Amount",
+        "Vat Amount",
+        "Net Amount Cback Amount",
+        "column_8"
+      ],
+      "rows": [
+        {
+          "column_1": "",
+          "Card Type": "Visa",
+          "Count": "",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Visa DCC",
+          "Count": "",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Master",
+          "Count": "",
+          "Txn Amount": "320.000",
+          "Com Amount": "4.160",
+          "Vat Amount": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Master DCC",
+          "Count": "0",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Sub-Total",
+          "Count": "2",
+          "Txn Amount": "320.000",
+          "Com Amount": "4.160",
+          "Vat Amount": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Benefit",
+          "Count": "0",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Maestro",
+          "Count": "0",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Others",
+          "Count": "",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Sub-Total",
+          "Count": "",
+          "Txn Amount": "0.000",
+          "Com Amount": "0.000",
+          "Vat Amount": "0.000",
+          "Net Amount Cback Amount": "0.000",
+          "column_8": "0.000"
+        },
+        {
+          "column_1": "",
+          "Card Type": "Total",
+          "Count": "",
+          "Txn Amount": "320.000",
+          "Com Amount": "4.160",
+          "Vat Amount": "0.416",
+          "Net Amount Cback Amount": "315.424",
+          "column_8": "0.000"
+        }
+      ],
+      "source": "opendataloader_structured",
+      "page_numbers": [
+        1
+      ],
+      "confidence": 0.92,
+      "file_name": "table_116.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 1.0,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_1.csv",
+      "table_34.csv",
+      "table_116.csv"
+    ]
+  },
+  "jobId": "55236136"
+}

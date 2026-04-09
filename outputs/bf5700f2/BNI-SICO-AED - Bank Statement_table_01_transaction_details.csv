@@ -1,0 +1,7 @@
+Value date,Description,Reference,Post date,Debit,Credit,Balance
+,Balance at Period Start,,,,,229810.450
+09 FEB 22,Securities PurchaSe,SCTRSC22038CHK4T 65500-RKCE.AD,07 FEB 22,-200398.55,0,29411.900
+17 FEB 22,Securities Purchase,SCTRSC22046BHBTB 50000-AIRA.DU,15FEB 22,-7,0,-46358.140
+21 FEB 22,Securities Purchase,SCTRSC22048NLZXQ 6000-RKCE.AD,17FEB22,-19250.00,-65608.140,-65608.140
+21 FEB 22,Transfer,FT220S2YJ2S0 65.608.14,21 FEB 22,,0,0.000
+,Balance at Period End,,,,,0.00

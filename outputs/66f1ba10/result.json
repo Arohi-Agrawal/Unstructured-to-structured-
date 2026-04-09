@@ -1,0 +1,121 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "Account Statement",
+    "reportName": "Account Statement",
+    "institutionName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "accountNumber": "0210102835004",
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:0210102835004",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102935",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Currency :AED"
+    ],
+    "footers": [],
+    "headings": [
+      "Est1995",
+      "Account Statement",
+      "Account:0210102835004",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102935",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Currency :AED"
+    ],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "account": "0210102835004",
+      "customer": "102935",
+      "currency": "AED"
+    },
+    "customerId": "102935"
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered table(s) from OCR word geometry."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_statement",
+      "columns": [
+        "Value Date",
+        "Description",
+        "Reference",
+        "Post Date",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "rows": [
+        {
+          "Value Date": "",
+          "Description": "Balance at Period Start",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "229,810.450"
+        },
+        {
+          "Value Date": "09 FEB 22",
+          "Description": "Securities PurchaSe",
+          "Reference": "SCTRSC22038CHK4T 65500-RKCE.AD",
+          "Post Date": "07 FEB 22",
+          "Debit": "-200,398.55",
+          "Credit": "",
+          "Balance": "29,411.900"
+        },
+        {
+          "Value Date": "17 FEB 22",
+          "Description": "Securities Purchase",
+          "Reference": "SCTRSC22046BHBTB 500OO-AIRA.DU",
+          "Post Date": "15 FEB 22",
+          "Debit": "-75,770.04",
+          "Credit": "",
+          "Balance": "-46,358.140"
+        }
+      ],
+      "source": "ocr_layout_reconstruction",
+      "page_numbers": [],
+      "confidence": 0.9,
+      "file_name": "table_001_statement.csv"
+    }
+  ],
+  "issues": [
+    "Visible balance summary rows were not fully preserved in the extracted tables."
+  ],
+  "confidence": 0.87,
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_statement.csv"
+    ]
+  },
+  "jobId": "66f1ba10"
+}

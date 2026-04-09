@@ -1,0 +1,80 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "Account Statement",
+    "reportName": "Account Statement",
+    "institutionName": null,
+    "accountNumber": "021010283S004",
+    "currency": "AED",
+    "statementDate": "01 FEB 2022To Date:2B FEB 2022",
+    "periodStart": "01 FEB 2022To Date",
+    "periodEnd": "2B FEB 2022",
+    "customerName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "paragraphs": [],
+    "narrativeText": [
+      "BAHRAIN NATIONAL INSURANCE CO."
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "customer": "102835",
+      "currency": "AED",
+      "page": "1"
+    },
+    "trn": null,
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "customerId": "102835"
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [],
+  "issues": [
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table.",
+    "Scanned or image-only PDF still did not yield a confident table after OCR/layout fallback."
+  ],
+  "confidence": 0.45,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": []
+  },
+  "jobId": "78e2ae83"
+}

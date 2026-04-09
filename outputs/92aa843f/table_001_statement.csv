@@ -1,0 +1,7 @@
+Value Date,Description,Reference,Post Date,Debit,Credit,Balance
+,BalanceatPeriodStart,,,,,"229,810,450"
+09 FEB 22,Securities PurchaSe,SCTRSC22038CHK4T,07 FEB 22,"-200,398.55",0,"29,411,900"
+17 FEB 22,Securities Purchase,SCTRSC22046BHBTB,15 FEB 22,"-75,770.04",0,"-46,358,140"
+21 FEB 22,Securities Purchase,SCTRSC22048NLZXQ,17 FEB 22,"-19,250.00",,"-65,608,140"
+21 FEB 22 Transfer,,FT22052YJ2S0,21 FEB 22,0,"65,608.14","0,000"
+,Balance at Period End,,,,,0.00

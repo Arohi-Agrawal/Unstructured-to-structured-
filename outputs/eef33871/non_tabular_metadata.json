@@ -1,0 +1,66 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "customer": "102835",
+      "currency": "AED",
+      "page": "1"
+    },
+    "trn": null,
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": null,
+    "customerId": null,
+    "openingBalance": "229,810.450",
+    "closingBalance": "0.00",
+    "validationWarnings": [
+      "Row-count mismatch remained within tolerant scanned-table threshold; accepted with warning."
+    ]
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered validated table(s) from OCR word geometry.",
+    "Second-pass OCR row recovery rebuilt dropped rows before final validation.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "issues": [],
+  "confidence": 0.65,
+  "validation_warnings": [
+    "Row-count mismatch remained within tolerant scanned-table threshold; accepted with warning."
+  ],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  }
+}

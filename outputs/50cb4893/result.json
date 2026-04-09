@@ -1,0 +1,163 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "Account Statement",
+    "reportName": "Account Statement",
+    "institutionName": null,
+    "accountNumber": "021010283S004",
+    "currency": "AED",
+    "statementDate": "01 FEB 2022",
+    "periodStart": "01 FEB 2022To Date",
+    "periodEnd": "28 FEB 2022",
+    "customerName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "paragraphs": [],
+    "narrativeText": [
+      "BAHRAIN NATIONAL INSURANCE CO."
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "customer": "102835",
+      "currency": "AED",
+      "page": "1"
+    },
+    "trn": null,
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": "BAHRAIN NATIONAL INSURANCE CO.",
+    "customerId": "102835"
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode did not improve extraction quality enough; keeping local artifacts for downstream fallback.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered validated table(s) from OCR line reconstruction.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_transactions",
+      "columns": [
+        "Value Date",
+        "Description",
+        "Reference",
+        "Post Date",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "rows": [
+        {
+          "Value Date": "09 FEB 22",
+          "Description": "Securities PurchaSe SCTRSC CHK T",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "22038",
+          "Balance": "4"
+        },
+        {
+          "Value Date": "07 FEB 22",
+          "Description": ". 0 65500-RKCE.AD",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "-200.398",
+          "Credit": "",
+          "Balance": "55"
+        },
+        {
+          "Value Date": "17 FEB 22",
+          "Description": "SecuEities Purchase SCTRSC BHBTB 0 15FEB 22-75.770.04 5000O-AIRA.DU",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "-46,358.140",
+          "Credit": "",
+          "Balance": "22046"
+        },
+        {
+          "Value Date": "21 FEB 22",
+          "Description": "Securities Purchase SCTRSC NLZXO",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "22048"
+        },
+        {
+          "Value Date": "17 FEB 22",
+          "Description": "6000 - RKCE.AD",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "-65,608.140",
+          "Credit": "",
+          "Balance": "-19,250.00"
+        },
+        {
+          "Value Date": "21 FEB 22",
+          "Description": "Transfer",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": ""
+        },
+        {
+          "Value Date": "21 FEB 22",
+          "Description": "65.608.14 0.000",
+          "Reference": "FT220S2YJ2S0",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "0"
+        }
+      ],
+      "source": "ocr_line_reconstruction_second_pass",
+      "page_numbers": [],
+      "confidence": 0.78,
+      "file_name": "table_001_transactions.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.92,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  },
+  "jobId": "50cb4893"
+}

@@ -1,0 +1,20 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "unknown",
+  "parserImplemented": false,
+  "parserUsed": "application",
+  "modeUsed": "processing_failed",
+  "metadata": {},
+  "notes": [],
+  "tables": [],
+  "issues": [
+    "Processing failed unexpectedly: PDFTableReconstructor._normalize_numeric_token() missing 1 required positional argument: 'column_name'"
+  ],
+  "confidence": 0.0,
+  "exports": {
+    "jsonFile": "",
+    "csvFiles": []
+  },
+  "jobId": "d9b05e09"
+}

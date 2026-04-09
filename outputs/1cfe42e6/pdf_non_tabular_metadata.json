@@ -1,0 +1,45 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "title": "BNI-SICO-AED - Bank Statement.pdf",
+  "reportName": null,
+  "bankName": "Statement",
+  "accountNumber": null,
+  "currency": "AED",
+  "statementDate": null,
+  "periodStart": null,
+  "periodEnd": null,
+  "merchantCode": null,
+  "merchantName": null,
+  "shop": null,
+  "address": null,
+  "trn": null,
+  "reportTakenBy": null,
+  "printedOn": null,
+  "pageInfo": [
+    "Pages: 1"
+  ],
+  "headers": [],
+  "footers": [],
+  "headings": [],
+  "paragraphs": [],
+  "narrativeText": [],
+  "disclaimerText": [],
+  "summaryText": [],
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast').",
+    "Hybrid selected because: image-only output, document looks image-only"
+  ],
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "extractionNotes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast').",
+    "Hybrid selected because: image-only output, document looks image-only"
+  ]
+}

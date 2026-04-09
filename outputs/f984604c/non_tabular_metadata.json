@@ -1,0 +1,61 @@
+{
+  "fileName": "MT940EOD-A-MT940_EOD-Acc001-2012-09-27.940",
+  "fileType": "mt940",
+  "detectedType": "mt940",
+  "parserUsed": "mt940",
+  "modeUsed": "swift_mt940",
+  "metadata": {
+    "title": "MT940 Statement",
+    "reportName": "MT940EOD-A-MT940_EOD-Acc001-2012-09-27",
+    "institutionName": null,
+    "accountNumber": "021XXXXXX001",
+    "currency": "AED",
+    "statementDate": "2012-09-27",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [
+      "Statements: 1",
+      "Transactions: 6"
+    ],
+    "rawLabelValues": {
+      "transactionReference": "AIR0013011390001",
+      "openingBalance": "1.45 AED",
+      "closingBalance": "9.09 AED",
+      "statementCount": "1",
+      "transactionCount": "6",
+      "statements": [
+        {
+          "statementId": "AIR0013011390001",
+          "accountNumber": "021XXXXXX001",
+          "statementNumber": "00264",
+          "sequenceNumber": "00001",
+          "openingBalance": "",
+          "closingBalance": ""
+        }
+      ]
+    },
+    "openingBalance": "1.45 AED",
+    "closingBalance": "9.09 AED"
+  },
+  "notes": [
+    "Parsed 1 MT940 statement block(s)."
+  ],
+  "issues": [],
+  "confidence": 0.93,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  }
+}

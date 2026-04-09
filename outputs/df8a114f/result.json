@@ -1,0 +1,56 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": null,
+    "bankName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.10",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast').",
+    "Hybrid OCR is required because local mode produced image-only output."
+  ],
+  "tables": [],
+  "issues": [
+    "OpenDataLoader hybrid mode failed: convert() got an unexpected keyword argument 'force_ocr'",
+    "OpenDataLoader hybrid retry failed: convert() got an unexpected keyword argument 'force_ocr'",
+    "Scanned or image-only PDF detected. Install hybrid support with pip install -U \"opendataloader-pdf[hybrid]\" and run opendataloader-pdf-hybrid --port 5002 --force-ocr",
+    "Tesseract OCR binary was not found. Install Tesseract and ensure 'tesseract' is on PATH.",
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table."
+  ],
+  "confidence": 0.5,
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

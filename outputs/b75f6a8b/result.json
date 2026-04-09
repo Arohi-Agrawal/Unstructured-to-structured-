@@ -1,0 +1,47 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "dependency_check_failed",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": null,
+    "bankName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [],
+  "tables": [],
+  "issues": [
+    "PDF processing failed unexpectedly: PDFTableReconstructor.detect_table_header_from_ocr() missing 1 required positional argument: 'rows'"
+  ],
+  "confidence": 0.0,
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

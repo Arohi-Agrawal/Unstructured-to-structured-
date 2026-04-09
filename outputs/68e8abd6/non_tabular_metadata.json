@@ -1,0 +1,105 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "local",
+  "metadata": {
+    "title": "Merchant Advice Transaction Details (Tax Invoice)",
+    "reportName": "Merchant Advice Transaction Details (Tax Invoice)",
+    "institutionName": "NBB",
+    "accountNumber": "99556464",
+    "currency": null,
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": "National Bank of Bahrain",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [
+      "Page:1 of 1"
+    ],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "National Bank of Bahrain PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "12/27/2023",
+      "Statement Date :",
+      "Shop:74 , Building: 79 , 000017934199 Road:2802 , Block:428 MANAMA - KINGDOM OF BAHRAIN",
+      "Merchant Code :",
+      "Merchant Name : Bank Account : 99556464",
+      "PostingDate Txn.Date Terminal Batch Seq#Card No. Type Txn.Amount Vat Amount Net Amount Cback Amount",
+      "- 12/26/2023 12/26/2023 17934150 97 532 537882xxxxxx2844 CR 160.000 2.080 0.208 157.712 0.000",
+      "- 12/26/2023 12/26/2023 17934150 97 533 548891xxxxxx8918 CR 160.000 2.080 0.208 157.712 0.000",
+      "## Total 320.000 4.160",
+      "315.424 0.000 Cback Amount",
+      "## Batch Summary Card Type Count Txn.Amount Com.Amount",
+      "## Vat Amount",
+      "## Net Amount",
+      "0.000 0.000",
+      "Visa Visa DCC",
+      "0 0",
+      "0.000 0.000 0.000 0.000 0.000 0.000",
+      "2 0",
+      "320.000 0.000 0.000 0.000 0.000",
+      "4.160 0.000 0.000 0.000 0.000",
+      "0.416 0.000 0.000 0.000 0.000 0.416",
+      "Master Master DCC Benefit Maestro Others",
+      "315.424 0.000 0.000 0.000 0.000",
+      "Total 2 320.000 4.160 315.424",
+      "Card Type Count Txn.Amount Com.Amount Net Amount Visa 0 0.000 0.000 0.000",
+      "Vat Amount 0.000 0.000 0.416 0.000",
+      "## Cback Amount",
+      "Visa DCC 0 0.000 0.000 0.000 Master 2 320.000 4.160 315.424 Master DCC 0 0.000 0.000 0.000",
+      "Sub-Total 2 320.000 4.160 315.424 0.000 Benefit 0 0.000 0.000 0.000 0.000 Maestro 0 0.000 0.000 0.000 0.000 Others 0 0.000 0.000 0.000 0.000 Sub-Total 0 0.000 0.000 0.000 0.000",
+      "0.000 0.000 0.000",
+      "0.000 0.416",
+      "Total 2 320.000 4.160 315.424 0.000",
+      "# Standard VAT Rate(10.000 %) applied on all commission. All Currency charged are in BHD.",
+      "This is a transaction advice. Kindly check your vouchers against the details above. Please call 1721 4433 in case of any discrepancy within 7 days from the date of this advice. The transactions will be considered valid unless the bank receives in writing a statement to the contrary within 7 days from the date of the advice”",
+      "Report taken by : Fahad Alqasimi Printed on :",
+      "## 12/27/2023 Page:1 of 1",
+      "Page:1 of 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": [
+      "## Batch Summary Card Type Count Txn.Amount Com.Amount"
+    ],
+    "rawLabelValues": {
+      "page": "1 of 1",
+      "trn": "200000410700002",
+      "merchantcode": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDAND S",
+      "bank account": "99556464",
+      "report taken by": "Fahad Alqasimi",
+      "merchant_code": "000017934199"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "National Bank of Bahrain"
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.20",
+    "Hybrid mode did not improve extraction quality; keeping local artifacts for downstream fallback.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "issues": [
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table.",
+    "Scanned or image-only PDF still did not yield a confident table after OCR/layout fallback."
+  ],
+  "confidence": 0.25,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "fileName": "MT940EOD-A-MT940_EOD-Acc001-2012-09-27.940",
+  "fileType": "mt940",
+  "detectedType": "mt940",
+  "parserImplemented": true,
+  "parserUsed": "mt940",
+  "modeUsed": "swift_mt940",
+  "metadata": {
+    "title": "MT940 Statement",
+    "reportName": "MT940EOD-A-MT940_EOD-Acc001-2012-09-27",
+    "institutionName": null,
+    "accountNumber": "021XXXXXX001",
+    "currency": "AED",
+    "statementDate": "2012-09-27",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [
+      "Statements: 1",
+      "Transactions: 6"
+    ],
+    "rawLabelValues": {
+      "transactionReference": "AIR0013011390001",
+      "openingBalance": "1.45 AED",
+      "closingBalance": "9.09 AED",
+      "statementCount": "1",
+      "transactionCount": "6",
+      "statements": [
+        {
+          "statementId": "AIR0013011390001",
+          "accountNumber": "021XXXXXX001",
+          "statementNumber": "00264",
+          "sequenceNumber": "00001",
+          "openingBalance": "",
+          "closingBalance": ""
+        }
+      ]
+    },
+    "openingBalance": "1.45 AED",
+    "closingBalance": "9.09 AED"
+  },
+  "notes": [
+    "Parsed 1 MT940 statement block(s)."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_transactions",
+      "columns": [
+        "Statement Id",
+        "Date",
+        "Entry Date",
+        "Amount",
+        "Currency",
+        "Transaction Type",
+        "Description",
+        "Reference",
+        "Bank Reference",
+        "Raw Tag Data"
+      ],
+      "rows": [
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-27",
+          "Entry Date": "2012-09-27",
+          "Amount": "8.00",
+          "Currency": "AED",
+          "Transaction Type": "NCHG",
+          "Description": "R/E OF ENTRY    DATED 24/09/2012",
+          "Reference": "NONREF",
+          "Bank Reference": "NONREF",
+          "Raw Tag Data": "{'status': 'C', 'funds_code': 'D', 'amount': <8.00 AED>, 'id': 'NCHG', 'customer_reference': 'NONREF', 'bank_reference': 'NONREF', 'extra_details': 'R/E OF ENTRY', 'currency': 'AED', 'date': Date(2012, 9, 27), 'entry_date': Date(2012, 9, 27), 'guessed_entry_date': Date(2012, 9, 27), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'R/E OF ENTRY\\n   DATED 24/09/2012'}"
+        },
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-27",
+          "Entry Date": "2012-09-27",
+          "Amount": "-0.03",
+          "Currency": "AED",
+          "Transaction Type": "NTRF",
+          "Description": "AUTOPAY OUT AF5    CSTTEST PID-ACHBTH05A-1",
+          "Reference": "PID-ACHBTH05A-1",
+          "Bank Reference": "2030829038350001",
+          "Raw Tag Data": "{'status': 'D', 'funds_code': 'D', 'amount': <-0.03 AED>, 'id': 'NTRF', 'customer_reference': 'PID-ACHBTH05A-1', 'bank_reference': '2030829038350001', 'extra_details': 'AUTOPAY OUT AF5', 'currency': 'AED', 'date': Date(2012, 9, 27), 'entry_date': Date(2012, 9, 27), 'guessed_entry_date': Date(2012, 9, 27), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'AUTOPAY OUT AF5\\n   CSTTEST PID-ACHBTH05A-1'}"
+        },
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-27",
+          "Entry Date": "2012-09-27",
+          "Amount": "-0.07",
+          "Currency": "AED",
+          "Transaction Type": "NTRF",
+          "Description": "AUTOPAY OUT AF6    CSTTEST PID-ACHBTH05A-3",
+          "Reference": "PID-ACHBTH05A-3",
+          "Bank Reference": "6853829038350001",
+          "Raw Tag Data": "{'status': 'D', 'funds_code': 'D', 'amount': <-0.07 AED>, 'id': 'NTRF', 'customer_reference': 'PID-ACHBTH05A-3', 'bank_reference': '6853829038350001', 'extra_details': 'AUTOPAY OUT AF6', 'currency': 'AED', 'date': Date(2012, 9, 27), 'entry_date': Date(2012, 9, 27), 'guessed_entry_date': Date(2012, 9, 27), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'AUTOPAY OUT AF6\\n   CSTTEST PID-ACHBTH05A-3'}"
+        },
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-27",
+          "Entry Date": "2012-09-27",
+          "Amount": "-0.11",
+          "Currency": "AED",
+          "Transaction Type": "NTRF",
+          "Description": "AUTOPAY OUT AF7    CSTTEST PID-ACHBTH05A-5",
+          "Reference": "PID-ACHBTH05A-5",
+          "Bank Reference": "6953829038350001",
+          "Raw Tag Data": "{'status': 'D', 'funds_code': 'D', 'amount': <-0.11 AED>, 'id': 'NTRF', 'customer_reference': 'PID-ACHBTH05A-5', 'bank_reference': '6953829038350001', 'extra_details': 'AUTOPAY OUT AF7', 'currency': 'AED', 'date': Date(2012, 9, 27), 'entry_date': Date(2012, 9, 27), 'guessed_entry_date': Date(2012, 9, 27), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'AUTOPAY OUT AF7\\n   CSTTEST PID-ACHBTH05A-5'}"
+        },
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-30",
+          "Entry Date": "2012-09-30",
+          "Amount": "-0.10",
+          "Currency": "AED",
+          "Transaction Type": "NTRF",
+          "Description": "CST TEST ACCOUNT    AE540200000021XXXXXX100 Unstructured Address DetailS Verifi       cation /NEWL/ new line /NEWL/Unstructured Address DetailS S        FX USD 0.03 AT 3.3333333",
+          "Reference": "END-PPPRE04AAE-1",
+          "Bank Reference": "AEA300920MP34WU8",
+          "Raw Tag Data": "{'status': 'D', 'funds_code': 'D', 'amount': <-0.10 AED>, 'id': 'NTRF', 'customer_reference': 'END-PPPRE04AAE-1', 'bank_reference': 'AEA300920MP34WU8', 'extra_details': 'CST TEST ACCOUNT', 'currency': 'AED', 'date': Date(2012, 9, 30), 'entry_date': Date(2012, 9, 30), 'guessed_entry_date': Date(2012, 9, 30), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'CST TEST ACCOUNT\\n   AE540200000021XXXXXX100 Unstructured Address DetailS Verifi\\n      cation /NEWL/ new line /NEWL/Unstructured Address DetailS\\nS        FX USD 0.03 AT 3.3333333'}"
+        },
+        {
+          "Statement Id": "AIR0013011390001",
+          "Date": "2012-09-30",
+          "Entry Date": "2012-09-30",
+          "Amount": "-0.05",
+          "Currency": "AED",
+          "Transaction Type": "NTRF",
+          "Description": "CST TEST ACCOUNT    AE810200000021XXXXXX002 Unstructured Address DetailS Verifi       cation /NEWL/ new line /NEWL/Unstructured Address DetailS S /OSDR/BBMEAEAD -}",
+          "Reference": "END-PPPRE04AAE-2",
+          "Bank Reference": "AEA3009292P34WW0",
+          "Raw Tag Data": "{'status': 'D', 'funds_code': 'D', 'amount': <-0.05 AED>, 'id': 'NTRF', 'customer_reference': 'END-PPPRE04AAE-2', 'bank_reference': 'AEA3009292P34WW0', 'extra_details': 'CST TEST ACCOUNT', 'currency': 'AED', 'date': Date(2012, 9, 30), 'entry_date': Date(2012, 9, 30), 'guessed_entry_date': Date(2012, 9, 30), 'transaction_reference': 'AIR0013011390001', 'transaction_details': 'CST TEST ACCOUNT\\n   AE810200000021XXXXXX002 Unstructured Address DetailS Verifi\\n      cation /NEWL/ new line /NEWL/Unstructured Address DetailS\\nS\\n/OSDR/BBMEAEAD\\n-}'}"
+        }
+      ],
+      "source": "mt940_transactions",
+      "page_numbers": [],
+      "confidence": 0.93,
+      "file_name": "table_001_transactions.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.93,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  },
+  "jobId": "f984604c"
+}

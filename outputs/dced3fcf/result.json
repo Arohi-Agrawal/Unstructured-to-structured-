@@ -1,0 +1,284 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "Merchant Advice Transaction Details (Tax Invoice)",
+    "reportName": "Merchant Advice Transaction Details (Tax Invoice)",
+    "institutionName": "National Bank of Bahrain",
+    "accountNumber": "99556464",
+    "currency": "BHD",
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": "YUSUF KHALIL ALMOAYED AND SONS",
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [
+      "TRN: 200000410700002"
+    ],
+    "footers": [
+      "Page:1 of 1"
+    ],
+    "headings": [
+      "TRN: 200000410700002"
+    ],
+    "paragraphs": [],
+    "narrativeText": [
+      "National Bank of Bahrain PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "12/27/2023",
+      "Statement Date :",
+      "Shop:74 , Building: 79 , 000017934199 Road:2802 , Block:428 MANAMA - KINGDOM OF BAHRAIN",
+      "Merchant Code :",
+      "Merchant Name : Bank Account : 99556464",
+      "PostingDate Txn.Date Terminal Batch Seq#Card No. Type Txn.Amount Vat Amount Net Amount Cback Amount",
+      "- 12/26/2023 12/26/2023 17934150 97 532 537882xxxxxx2844 CR 160.000 2.080 0.208 157.712 0.000",
+      "- 12/26/2023 12/26/2023 17934150 97 533 548891xxxxxx8918 CR 160.000 2.080 0.208 157.712 0.000",
+      "## Total 320.000 4.160",
+      "315.424 0.000 Cback Amount",
+      "## Batch Summary Card Type Count Txn.Amount Com.Amount",
+      "## Vat Amount",
+      "## Net Amount",
+      "0.000 0.000",
+      "Visa Visa DCC",
+      "0 0",
+      "0.000 0.000 0.000 0.000 0.000 0.000",
+      "2 0",
+      "320.000 0.000 0.000 0.000 0.000",
+      "4.160 0.000 0.000 0.000 0.000",
+      "0.416 0.000 0.000 0.000 0.000 0.416",
+      "Master Master DCC Benefit Maestro Others",
+      "315.424 0.000 0.000 0.000 0.000",
+      "Total 2 320.000 4.160 315.424",
+      "Card Type Count Txn.Amount Com.Amount Net Amount Visa 0 0.000 0.000 0.000",
+      "Vat Amount 0.000 0.000 0.416 0.000",
+      "## Cback Amount",
+      "Visa DCC 0 0.000 0.000 0.000 Master 2 320.000 4.160 315.424 Master DCC 0 0.000 0.000 0.000",
+      "Sub-Total 2 320.000 4.160 315.424 0.000 Benefit 0 0.000 0.000 0.000 0.000 Maestro 0 0.000 0.000 0.000 0.000 Others 0 0.000 0.000 0.000 0.000 Sub-Total 0 0.000 0.000 0.000 0.000",
+      "0.000 0.000 0.000",
+      "0.000 0.416",
+      "Total 2 320.000 4.160 315.424 0.000",
+      "# Standard VAT Rate(10.000 %) applied on all commission. All Currency charged are in BHD.",
+      "This is a transaction advice. Kindly check your vouchers against the details above. Please call 1721 4433 in case of any discrepancy within 7 days from the date of this advice. The transactions will be considered valid unless the bank receives in writing a statement to the contrary within 7 days from the date of the advice”",
+      "Report taken by : Fahad Alqasimi Printed on :",
+      "## 12/27/2023 Page:1 of 1",
+      "Page:1 of 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": [
+      "## Batch Summary Card Type Count Txn.Amount Com.Amount"
+    ],
+    "rawLabelValues": {
+      "trn": "200000410700002",
+      "page": "1 of 1",
+      "merchantcode": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDAND S",
+      "bank account": "99556464",
+      "report taken by": "Fahad Alqasimi",
+      "merchant_code": "000017934199"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "YUSUF KHALIL ALMOAYED AND SONS",
+    "validationWarnings": [
+      "Row 1: merchant financial mismatch detected; over-correction skipped.",
+      "Row 4: merchant financial mismatch detected; over-correction skipped.",
+      "Row 6: merchant financial mismatch detected; over-correction skipped.",
+      "Merchant summary mismatch: Sum(Net Amount) does not match Total row.",
+      "Merchant summary warning: Total row VAT is missing."
+    ]
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.00",
+    "Hybrid mode did not improve extraction quality enough; keeping local artifacts for downstream fallback.",
+    "Forced OCR for merchant-advice layout to improve table/metadata recovery.",
+    "Merchant-advice layout detected: extracted page into transaction and summary table blocks.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Transaction block reconstructed from merchant-advice text/OCR content.",
+    "Merchant summary block reconstructed as a separate table.",
+    "Recovered multi-block merchant advice tables from OCR/text lines.",
+    "Applied PDF post-processing pipeline: dedupe, row reconstruction, and column alignment.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_transactions",
+      "columns": [
+        "PostingDate",
+        "Txn.Date",
+        "Terminal",
+        "Batch",
+        "Seq#",
+        "Card No.",
+        "Type",
+        "Txn.Amount",
+        "Com.Amount",
+        "Vat Amount",
+        "Net Amount",
+        "Cback Amount"
+      ],
+      "rows": [
+        {
+          "PostingDate": "12/26/2023",
+          "Txn.Date": "12/26/2023",
+          "Terminal": "17934150",
+          "Batch": "97",
+          "Seq#": "532",
+          "Card No.": "537882xxxxxx2844",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com.Amount": "2.080",
+          "Vat Amount": "0.208",
+          "Net Amount": "157.712",
+          "Cback Amount": "0.000"
+        },
+        {
+          "PostingDate": "12/26/2023",
+          "Txn.Date": "12/26/2023",
+          "Terminal": "17934150",
+          "Batch": "97",
+          "Seq#": "533",
+          "Card No.": "548891xxxxxx8918",
+          "Type": "CR",
+          "Txn.Amount": "160.000",
+          "Com.Amount": "2.080",
+          "Vat Amount": "0.208",
+          "Net Amount": "157.712",
+          "Cback Amount": "0.000"
+        }
+      ],
+      "source": "ocr_merchant_transactions",
+      "page_numbers": [],
+      "confidence": 0.84,
+      "file_name": "table_001_transactions.csv"
+    },
+    {
+      "table_id": "table_003",
+      "name": "table_003_merchant_summary",
+      "columns": [
+        "Card Type",
+        "Count",
+        "Txn.Amount",
+        "Com.Amount",
+        "Net Amount",
+        "Cback Amount",
+        "Vat Amount"
+      ],
+      "rows": [
+        {
+          "Card Type": "Total",
+          "Count": "",
+          "Txn.Amount": "320.000",
+          "Com.Amount": "4.160",
+          "Net Amount": "",
+          "Cback Amount": "",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Visa",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Visa Dcc",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Master",
+          "Count": "2",
+          "Txn.Amount": "320.000",
+          "Com.Amount": "4.160",
+          "Net Amount": "315.424",
+          "Cback Amount": "",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Master Dcc",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Sub-Total",
+          "Count": "2",
+          "Txn.Amount": "320.000",
+          "Com.Amount": "4.160",
+          "Net Amount": "315.424",
+          "Cback Amount": "0.000",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Benefit",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "0.000",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Maestro",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "0.000",
+          "Vat Amount": ""
+        },
+        {
+          "Card Type": "Others",
+          "Count": "0",
+          "Txn.Amount": "0.000",
+          "Com.Amount": "0.000",
+          "Net Amount": "0.000",
+          "Cback Amount": "0.000",
+          "Vat Amount": ""
+        }
+      ],
+      "source": "ocr_merchant_summary",
+      "page_numbers": [],
+      "confidence": 0.72,
+      "file_name": "table_003_merchant_summary.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.65,
+  "validation_warnings": [
+    "Row 1: merchant financial mismatch detected; over-correction skipped.",
+    "Row 4: merchant financial mismatch detected; over-correction skipped.",
+    "Row 6: merchant financial mismatch detected; over-correction skipped.",
+    "Merchant summary mismatch: Sum(Net Amount) does not match Total row.",
+    "Merchant summary warning: Total row VAT is missing."
+  ],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv",
+      "table_003_merchant_summary.csv"
+    ]
+  },
+  "jobId": "dced3fcf"
+}

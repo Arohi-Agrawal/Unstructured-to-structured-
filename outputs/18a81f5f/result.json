@@ -1,0 +1,117 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002",
+      "merchant code": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDANDS",
+      "report taken by": "Fahad Alqasimi",
+      "page": "1 of 1",
+      "merchant_code": "000017934199"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "Advice Transaction Details (Tax Invoice)",
+    "customerId": null,
+    "openingBalance": null,
+    "closingBalance": null,
+    "validationWarnings": [
+      "Transaction table accepted with only one reconstructed row; verify source PDF visually."
+    ]
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.00",
+    "Hybrid mode did not improve extraction quality; keeping local artifacts for downstream fallback.",
+    "Merchant-advice layout detected: extracted page into transaction and summary table blocks.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered validated table(s) from OCR word geometry.",
+    "Transaction block reconstructed from merchant-advice table region.",
+    "Switched to block-aware merchant advice reconstruction for multi-table extraction.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_transactions",
+      "columns": [
+        "PostingDate",
+        "Txn.Date",
+        "Terminal",
+        "Batch",
+        "Seq#",
+        "Card No.",
+        "Txn.Amount",
+        "Type",
+        "Vat Amount",
+        "Net Amount",
+        "Cback Amount",
+        "Com.Amount",
+        "Reference",
+        "Description"
+      ],
+      "rows": [
+        {
+          "PostingDate": "",
+          "Txn.Date": "12/26/2023 12/26/2023",
+          "Terminal": "",
+          "Batch": "：12/26/2023",
+          "Seq#": "312/26/202317934150",
+          "Card No.": "",
+          "Txn.Amount": "17934150",
+          "Type": "",
+          "Vat Amount": "97",
+          "Net Amount": "",
+          "Cback Amount": "Total",
+          "Com.Amount": "Com.Amount",
+          "Reference": "532537882xxxxxx2844 533548891xxxxxx8918",
+          "Description": ""
+        }
+      ],
+      "source": "ocr_merchant_transactions",
+      "page_numbers": [],
+      "confidence": 0.58,
+      "file_name": "table_001_transactions.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.65,
+  "validation_warnings": [
+    "Transaction table accepted with only one reconstructed row; verify source PDF visually."
+  ],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  },
+  "jobId": "18a81f5f"
+}

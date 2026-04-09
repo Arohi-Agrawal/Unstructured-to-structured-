@@ -1,0 +1,70 @@
+{
+  "fileName": "ADCB 1.xlsx",
+  "fileType": "xlsx",
+  "detectedType": "xlsx",
+  "parserUsed": "pandas_excel",
+  "modeUsed": "workbook",
+  "metadata": {
+    "title": "ADCB 1.xlsx",
+    "reportName": "ADCB 1",
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [],
+    "headers": [
+      "ADCB SOA AUG 2025",
+      "ADCB GL AUG 2025 ",
+      "ADCB RECO SUMMARY JULY 2025"
+    ],
+    "footers": [],
+    "headings": [
+      "ADCB SOA AUG 2025",
+      "ADCB GL AUG 2025 ",
+      "ADCB RECO SUMMARY JULY 2025"
+    ],
+    "paragraphs": [
+      "ADCB SOA AUG 2025: 6208 rows, 9 cols",
+      "ADCB GL AUG 2025 : 6450 rows, 9 cols",
+      "ADCB RECO SUMMARY JULY 2025: 469 rows, 15 cols"
+    ],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [
+      "Sheets parsed: 3"
+    ],
+    "rawLabelValues": {
+      "workbook": "ADCB 1.xlsx",
+      "sheets": {
+        "ADCB SOA AUG 2025": {
+          "rowCount": 6208,
+          "columnCount": 9
+        },
+        "ADCB GL AUG 2025 ": {
+          "rowCount": 6450,
+          "columnCount": 9
+        },
+        "ADCB RECO SUMMARY JULY 2025": {
+          "rowCount": 469,
+          "columnCount": 15
+        }
+      }
+    }
+  },
+  "notes": [],
+  "issues": [],
+  "confidence": 0.94,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_adcb_soa_aug_2025.csv",
+      "table_002_adcb_gl_aug_2025.csv",
+      "table_003_adcb_reco_summary_july_2025.csv"
+    ]
+  }
+}

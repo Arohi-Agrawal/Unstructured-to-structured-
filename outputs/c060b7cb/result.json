@@ -1,0 +1,160 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "Account Statement",
+    "reportName": "Account Statement",
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [
+      "E:t 1995",
+      "Account Statement",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "BAHRAIN NATIONAL INSURANCE CO.",
+      "Customer :102835",
+      "Currency :AED"
+    ],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "customer": "102835",
+      "currency": "AED",
+      "page": "1"
+    },
+    "trn": null,
+    "merchantCode": null,
+    "reportTakenBy": null,
+    "merchantName": null,
+    "customerId": "102835",
+    "openingBalance": "229,810.450",
+    "closingBalance": "0.00",
+    "validationWarnings": [
+      "Accepted small summary-like table block with source-aware validation."
+    ]
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.35",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered validated table(s) from OCR word geometry.",
+    "Forced second-pass recovery replaced under-complete table with a fuller row set.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "table_001_transactions",
+      "columns": [
+        "Value Date",
+        "Description",
+        "Reference",
+        "Post Date",
+        "Debit",
+        "Credit",
+        "Balance"
+      ],
+      "rows": [
+        {
+          "Value Date": "",
+          "Description": "Balance at Period Start",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "229,810.450"
+        },
+        {
+          "Value Date": "09 FEB 22",
+          "Description": "Securities PurchaSe RKCE.AD",
+          "Reference": "SCTRSC22038CHK4T",
+          "Post Date": "07 FEB 22",
+          "Debit": "-200.398",
+          "Credit": "29,411.900",
+          "Balance": "29,411.900"
+        },
+        {
+          "Value Date": "17 FEB 22",
+          "Description": "SecuEities Purchase 15FEB 22 . 4 -46,358.14 O-AIRA.DU",
+          "Reference": "SCTRSC22046BHBTB",
+          "Post Date": "",
+          "Debit": "-75.770",
+          "Credit": "",
+          "Balance": "-75.770"
+        },
+        {
+          "Value Date": "21 FEB 22",
+          "Description": "Securities Purchase RKCE.AD",
+          "Reference": "SCTRSC22048NLZXO",
+          "Post Date": "17 FEB 22",
+          "Debit": "-19,250.00",
+          "Credit": "",
+          "Balance": "-19,250.00"
+        },
+        {
+          "Value Date": "21 FEB 22",
+          "Description": "Transfer",
+          "Reference": "FT220S2YJ2S0",
+          "Post Date": "21 FEB 22",
+          "Debit": "",
+          "Credit": "14",
+          "Balance": "0.000"
+        },
+        {
+          "Value Date": "",
+          "Description": "Balance at Periad End",
+          "Reference": "",
+          "Post Date": "",
+          "Debit": "",
+          "Credit": "",
+          "Balance": "0.00"
+        }
+      ],
+      "source": "ocr_second_pass_row_recovery",
+      "page_numbers": [],
+      "confidence": 0.58,
+      "file_name": "table_001_transactions.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.65,
+  "validation_warnings": [
+    "Accepted small summary-like table block with source-aware validation."
+  ],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_transactions.csv"
+    ]
+  },
+  "jobId": "c060b7cb"
+}

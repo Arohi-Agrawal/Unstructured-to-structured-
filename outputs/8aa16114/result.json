@@ -1,0 +1,20 @@
+{
+  "fileName": "MT940EOD-A-MT940_EOD-Acc001-2012-09-27.940",
+  "fileType": "940",
+  "detectedType": "unknown",
+  "parserImplemented": false,
+  "parserUsed": "application",
+  "modeUsed": "processing_failed",
+  "metadata": {},
+  "notes": [],
+  "tables": [],
+  "issues": [
+    "Processing failed unexpectedly: 'list' object has no attribute 'transactions'"
+  ],
+  "confidence": 0.0,
+  "exports": {
+    "jsonFile": "",
+    "csvFiles": []
+  },
+  "jobId": "8aa16114"
+}

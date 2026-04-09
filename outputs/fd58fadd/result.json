@@ -1,0 +1,121 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "page": "1 of 1",
+      "merchant_code": "000017934199",
+      "trn": "200000410700002"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "Advice Transaction Details (Tax Invoice)",
+    "customerId": null,
+    "openingBalance": null,
+    "closingBalance": null,
+    "validationWarnings": [
+      "Accepted small summary-like table block with source-aware validation."
+    ]
+  },
+  "notes": [
+    "Local mode score: 0.35",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.00",
+    "Hybrid mode did not improve extraction quality; keeping local artifacts for downstream fallback.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Recovered validated table(s) from OCR word geometry.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced."
+  ],
+  "tables": [
+    {
+      "table_id": "table_002",
+      "name": "table_002",
+      "columns": [
+        "Value Date",
+        "Txn",
+        "Post Date",
+        "Terminal",
+        "Batch",
+        "Seq#Card",
+        "No.",
+        "Type",
+        "Amount",
+        "Com",
+        "Net",
+        "Description"
+      ],
+      "rows": [
+        {
+          "Value Date": "12/26/2023",
+          "Txn": "",
+          "Post Date": "12/26/2023",
+          "Terminal": "",
+          "Batch": "17934150",
+          "Seq#Card": "97",
+          "No.": "532537882xxxxxx2844",
+          "Type": "CR",
+          "Amount": "160,000157,7120.000",
+          "Com": "2.080",
+          "Net": "0.208",
+          "Description": ""
+        },
+        {
+          "Value Date": "12/26/2023",
+          "Txn": "",
+          "Post Date": "12/26/2023",
+          "Terminal": "",
+          "Batch": "17934150",
+          "Seq#Card": "97",
+          "No.": "533548891xxxxxx8918",
+          "Type": "CR",
+          "Amount": "160,000157,7120.000",
+          "Com": "2.080",
+          "Net": "0.208",
+          "Description": ""
+        }
+      ],
+      "source": "ocr_layout_reconstruction",
+      "page_numbers": [],
+      "confidence": 0.58,
+      "file_name": "table_002.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.65,
+  "validation_warnings": [
+    "Accepted small summary-like table block with source-aware validation."
+  ],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_002.csv"
+    ]
+  },
+  "jobId": "fd58fadd"
+}

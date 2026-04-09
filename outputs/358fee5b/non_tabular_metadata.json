@@ -1,0 +1,60 @@
+{
+  "fileName": "BR-P-HSBC-23DEC2023-rsmax1335-011202 1.csv",
+  "fileType": "csv",
+  "detectedType": "csv",
+  "parserUsed": "pandas_csv",
+  "modeUsed": "tabular",
+  "metadata": {
+    "title": "BR-P-HSBC-23DEC2023-rsmax1335-011202 1.csv",
+    "reportName": "BR-P-HSBC-23DEC2023-rsmax1335-011202 1",
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [],
+    "headers": [
+      "Bank Name :",
+      "Hongkong Shanghai Bkg.Corp",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5",
+      "Unnamed: 6",
+      "Unnamed: 7",
+      "Unnamed: 8",
+      "Unnamed: 9",
+      "Unnamed: 10",
+      "Unnamed: 11"
+    ],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [
+      "Rows: 65222",
+      "Columns: 12"
+    ],
+    "rawLabelValues": {
+      "delimiter": ",",
+      "rowCount": "65222",
+      "columnCount": "12"
+    }
+  },
+  "notes": [
+    "Detected delimiter: ','"
+  ],
+  "issues": [],
+  "confidence": 0.95,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_001_data.csv"
+    ]
+  }
+}

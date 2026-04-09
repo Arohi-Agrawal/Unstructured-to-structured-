@@ -1,0 +1,137 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": "Account Statement",
+    "bankName": "Statement",
+    "accountNumber": "021010283S004",
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": "Date:01 FEB 2022To Date:28 FEB 2022",
+    "periodEnd": "mer :102835",
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:021010283S004",
+      "BAHRAIN NATIONAL INSURANCE CO."
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "Page: 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback used RapidOCR on page 1.",
+    "Rendered scanned PDF page images at high resolution and extracted OCR words with coordinates.",
+    "Reconstructed table(s) from OCR word coordinates."
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "name": "OCR Reconstructed Table",
+      "columns": [
+        "FrOm",
+        "Date:01",
+        "FEB",
+        "2022To",
+        "Date:28",
+        "FEB",
+        "2022"
+      ],
+      "rows": [
+        {
+          "FrOm": "229,810.450",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "Balance at Period Start"
+        },
+        {
+          "FrOm": "29,411.900",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "09 FEB 22 Securities PurchaSe SCTRSC22038CHK4T 07 FEB 22 -200,398.55 0"
+        },
+        {
+          "FrOm": "-46,358.140",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "17 FEB 22 Securities Purchase SCTRSC22046BHBTB 15FEB 22 -7S,770.04 0"
+        },
+        {
+          "FrOm": "-65,608.140",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "21 PEB 22 Securities Purchase SCTRSC22048NLZXQ 17FEB22-19,250.00"
+        },
+        {
+          "FrOm": "21 FEB 22 Transfer 0.000",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "FT220S2YJ2S0 21 FEB 22 0 65.608.14"
+        },
+        {
+          "FrOm": "0.00",
+          "Date:01": "",
+          "FEB": "",
+          "2022To": "",
+          "Date:28": "",
+          "2022": "Balance at Period End Page: 1"
+        }
+      ],
+      "source": "ocr_coordinate_reconstruction",
+      "page_numbers": [],
+      "confidence": 0.78,
+      "file_name": "BNI-SICO-AED - Bank Statement_table_01_ocr_reconstructed_table.csv"
+    }
+  ],
+  "issues": [],
+  "confidence": 0.82,
+  "extractionSummary": {
+    "tablesExtracted": 1,
+    "tableFiles": [
+      "BNI-SICO-AED - Bank Statement_table_01_ocr_reconstructed_table.csv"
+    ]
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": [
+      "BNI-SICO-AED - Bank Statement_table_01_ocr_reconstructed_table.csv"
+    ]
+  }
+}

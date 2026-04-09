@@ -1,0 +1,3 @@
+column_1,PostingDate Txn.Date Terminal Batch Seq#Card No.,column_3,Type,Txn.Amount,Com. Amount Vat Amount,Net Amount Cback Amount,column_8,Balance,Credit
+,12/26/2023,12/26/2023 17934150 97 532 537882xxxxxx2844,CR,160.000,2.080 0.208,157.712,0.000,,
+,12/26/2023,12/26/2023 17934150 97 533 548891xxxxxx8918,CR,160.000,2.080 0.208,157.712,0.000,0.000,0.000

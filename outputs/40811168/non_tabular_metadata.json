@@ -1,0 +1,66 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "hybrid",
+  "metadata": {
+    "title": null,
+    "reportName": null,
+    "institutionName": null,
+    "accountNumber": null,
+    "currency": null,
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Page: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "page": "1 of 1",
+      "trn": "200000410700002",
+      "merchantcode": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDAND S",
+      "bank account": "99556464",
+      "report taken by": "Fahad Alqasimi",
+      "merchant_code": "000017934199"
+    },
+    "trn": "200000410700002",
+    "merchantCode": "000017934199",
+    "reportTakenBy": "Fahad Alqasimi",
+    "merchantName": "YUSUFKHALILALMOAYEDAND S",
+    "customerId": null
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.00",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Table-dominant mode active: prioritized table fidelity and kept canonical metadata minimal unless strongly evidenced.",
+    "Metadata OCR signals detected but not fully resolved into canonical fields. Focus on extracted tables."
+  ],
+  "issues": [
+    "OpenDataLoader hybrid mode failed: Command '['java', '-jar', 'D:\\\\pdf conversion\\\\document_app\\\\.venv\\\\Lib\\\\site-packages\\\\opendataloader_pdf\\\\jar\\\\opendataloader-pdf-cli.jar', 'D:\\\\pdf conversion\\\\document_app\\\\uploads\\\\40811168\\\\STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF', '--output-dir', 'C:\\\\Users\\\\hp\\\\AppData\\\\Local\\\\Temp\\\\odl_hybrid_mqyj9il3', '--format', 'markdown,json', '--hybrid', 'docling-fast']' returned non-zero exit status 1.",
+    "OpenDataLoader hybrid retry failed: Command '['java', '-jar', 'D:\\\\pdf conversion\\\\document_app\\\\.venv\\\\Lib\\\\site-packages\\\\opendataloader_pdf\\\\jar\\\\opendataloader-pdf-cli.jar', 'D:\\\\pdf conversion\\\\document_app\\\\uploads\\\\40811168\\\\STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF', '--output-dir', 'C:\\\\Users\\\\hp\\\\AppData\\\\Local\\\\Temp\\\\odl_hybrid_mqyj9il3', '--format', 'json', '--hybrid', 'docling-fast']' returned non-zero exit status 1.",
+    "Scanned or image-only PDF detected. Install hybrid support with pip install -U \"opendataloader-pdf[hybrid]\" and run opendataloader-pdf-hybrid --port 5002 --force-ocr",
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table.",
+    "Scanned or image-only PDF still did not yield a confident table after OCR/layout fallback."
+  ],
+  "confidence": 0.25,
+  "validation_warnings": [],
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

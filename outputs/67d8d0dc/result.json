@@ -1,0 +1,58 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "local",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": null,
+    "bankName": "Statement_images/imageFile1.png)",
+    "accountNumber": null,
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": null,
+    "periodEnd": null,
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [],
+    "footers": [],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "![image 1](BNI-SICO-AED - Bank Statement_images/imageFile1.png)",
+      "![image 2](BNI-SICO-AED - Bank Statement_images/imageFile2.png)",
+      "![image 3](BNI-SICO-AED - Bank Statement_images/imageFile3.png)",
+      "![image 4](BNI-SICO-AED - Bank Statement_images/imageFile4.png)",
+      "![image 5](BNI-SICO-AED - Bank Statement_images/imageFile5.png)",
+      "![image 6](BNI-SICO-AED - Bank Statement_images/imageFile6.png)",
+      "![image 7](BNI-SICO-AED - Bank Statement_images/imageFile7.png)"
+    ],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.45",
+    "Hybrid mode score: 0.10",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Local output kept because hybrid mode did not improve extraction."
+  ],
+  "tables": [],
+  "issues": [
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table."
+  ],
+  "confidence": 0.67,
+  "exports": {
+    "jsonFile": "result.json",
+    "csvFiles": []
+  }
+}

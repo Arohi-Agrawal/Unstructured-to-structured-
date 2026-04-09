@@ -1,0 +1,37 @@
+{
+  "fileName": "ADCB 1.xlsx",
+  "fileType": "xlsx",
+  "title": "ADCB 1.xlsx",
+  "reportName": null,
+  "bankName": null,
+  "accountNumber": null,
+  "currency": null,
+  "statementDate": null,
+  "periodStart": null,
+  "periodEnd": null,
+  "merchantCode": null,
+  "merchantName": null,
+  "shop": null,
+  "address": null,
+  "trn": null,
+  "reportTakenBy": null,
+  "printedOn": null,
+  "pageInfo": [],
+  "headers": [],
+  "footers": [],
+  "headings": [],
+  "paragraphs": [],
+  "narrativeText": [],
+  "disclaimerText": [],
+  "summaryText": [],
+  "notes": [
+    "The architecture is ready for XLSX, but the parser is still a placeholder."
+  ],
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "extractionNotes": [
+    "The architecture is ready for XLSX, but the parser is still a placeholder."
+  ]
+}

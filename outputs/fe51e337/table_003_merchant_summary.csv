@@ -1,0 +1,10 @@
+Card Type,Count,Txn.Amount,Com.Amount,Net Amount,Cback Amount,Vat Amount
+Total,,320.000,4.160,,,
+Visa,0,0.000,0.000,0.000,,
+Visa Dcc,0,0.000,0.000,0.000,,
+Master,2,320.000,4.160,315.424,,
+Master Dcc,0,0.000,0.000,0.000,,
+Sub-Total,2,320.000,4.160,315.424,0.000,
+Benefit,0,0.000,0.000,0.000,0.000,
+Maestro,0,0.000,0.000,0.000,0.000,
+Others,0,0.000,0.000,0.000,0.000,

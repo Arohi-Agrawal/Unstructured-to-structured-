@@ -1,0 +1,20 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "unknown",
+  "parserImplemented": false,
+  "parserUsed": "application",
+  "modeUsed": "processing_failed",
+  "metadata": {},
+  "notes": [],
+  "tables": [],
+  "issues": [
+    "Processing failed unexpectedly: name 'cls' is not defined"
+  ],
+  "confidence": 0.0,
+  "exports": {
+    "jsonFile": "",
+    "csvFiles": []
+  },
+  "jobId": "b5b79c77"
+}

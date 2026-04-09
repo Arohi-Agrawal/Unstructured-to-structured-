@@ -1,0 +1,67 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserImplemented": true,
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": "BNI-SICO-AED - Bank Statement.pdf",
+    "reportName": "Account Statement",
+    "bankName": "Statement",
+    "accountNumber": "021010283S004",
+    "currency": "AED",
+    "statementDate": null,
+    "periodStart": "01 FEB 2022To D",
+    "periodEnd": "28 FEB 2022",
+    "merchantCode": null,
+    "merchantName": null,
+    "shop": null,
+    "address": null,
+    "trn": null,
+    "reportTakenBy": null,
+    "printedOn": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "S/CO",
+      "Est1995",
+      "Account Statement",
+      "Account:021010283S004",
+      "BAHRAIN NATIONAL INSURANCE CO."
+    ],
+    "footers": [
+      "Page: 1"
+    ],
+    "headings": [],
+    "paragraphs": [],
+    "narrativeText": [
+      "Page: 1"
+    ],
+    "disclaimerText": [],
+    "summaryText": []
+  },
+  "notes": [
+    "Local mode score: 0.30",
+    "Hybrid mode score: 0.30",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "Hybrid selected because: image-only output, document looks image-only",
+    "Local OCR fallback used RapidOCR on page 1.",
+    "Rendered scanned PDF page images at high resolution and extracted OCR words with coordinates."
+  ],
+  "tables": [],
+  "issues": [
+    "No structured tables found; OCR/layout reconstruction did not produce a confident table.",
+    "Scanned or image-only PDF detected. Install hybrid support with pip install -U \"opendataloader-pdf[hybrid]\" and run opendataloader-pdf-hybrid --port 5002 --force-ocr"
+  ],
+  "confidence": 0.43,
+  "extractionSummary": {
+    "tablesExtracted": 0,
+    "tableFiles": []
+  },
+  "exports": {
+    "jsonFile": "pdf_non_tabular_metadata.json",
+    "csvFiles": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "fileName": "BNI-SICO-AED - Bank Statement.pdf",
+  "fileType": "pdf",
+  "detectedType": "PDF",
+  "parserUsed": "pdf",
+  "processedAt": "2026-04-02T07:23:14.771701",
+  "metadata": {
+    "fileName": "6a08e9ce_BNI-SICO-AED - Bank Statement.pdf",
+    "fileSize": 15146,
+    "parsingMode": "LOCAL",
+    "isScanned": false,
+    "tableCount": 1,
+    "pageCount": 1
+  },
+  "notes": [
+    "PDF parsed with LOCAL mode (native/digital PDF)"
+  ],
+  "tables": [
+    {
+      "table_id": "table_001",
+      "title": "PDF Table 1",
+      "columns": [
+        "Column 1",
+        "Column 2",
+        "Column 3"
+      ],
+      "rows": [
+        {
+          "Column 1": "Data 1",
+          "Column 2": "Data 2",
+          "Column 3": "Data 3"
+        },
+        {
+          "Column 1": "Data 4",
+          "Column 2": "Data 5",
+          "Column 3": "Data 6"
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "confidence": 0.95,
+  "exports": {
+    "jsonFile": "D:\\pdf conversion\\document_app\\outputs\\6a08e9ce\\result.json",
+    "csvFiles": [
+      "D:\\pdf conversion\\document_app\\outputs\\6a08e9ce\\BNI-SICO-AED - Bank Statement_table_001.csv"
+    ]
+  },
+  "content": {
+    "text": "Extracted PDF content",
+    "headers": [],
+    "footers": []
+  }
+}

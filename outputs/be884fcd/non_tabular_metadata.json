@@ -1,0 +1,98 @@
+{
+  "fileName": "STMNT_20231227_000017934199_0099556464_vibin.balakrishnan@almoayyed.com 1.PDF",
+  "fileType": "pdf",
+  "detectedType": "scanned-pdf",
+  "parserUsed": "opendataloader_pdf",
+  "modeUsed": "ocr_layout_fallback",
+  "metadata": {
+    "title": null,
+    "reportName": "DataWindow",
+    "institutionName": "Bahrain",
+    "accountNumber": "99556464",
+    "currency": "BHD",
+    "statementDate": "12/27/2023",
+    "periodStart": null,
+    "periodEnd": null,
+    "customerName": null,
+    "address": null,
+    "pageInfo": [
+      "Pages: 1"
+    ],
+    "headers": [
+      "NBB",
+      "National Bank of Bahrain",
+      "TRN:200000410700002",
+      "Merchant Advice Transaction Details (Tax Invoice)",
+      "YUSUFKHALILALMOAYEDANDSONS",
+      "MerchantCode:000017934199",
+      "MerchantName:YUSUFKHALILALMOAYEDANDS",
+      "MANAMA-KINGDOMOFBAHRAIN",
+      "Bank Account",
+      "t:99556464",
+      "200011241300002"
+    ],
+    "footers": [
+      "astatementtothecontrarywithin7daysfromthedateoftheadvice\""
+    ],
+    "headings": [
+      "National Bank of Bahrain",
+      "TRN:200000410700002",
+      "Merchant Advice Transaction Details (Tax Invoice)",
+      "YUSUFKHALILALMOAYEDANDSONS",
+      "MerchantCode:000017934199",
+      "MerchantName:YUSUFKHALILALMOAYEDANDS",
+      "MANAMA-KINGDOMOFBAHRAIN",
+      "Bank Account",
+      "t:99556464",
+      "200011241300002"
+    ],
+    "paragraphs": [],
+    "narrativeText": [
+      "# National Bank of Bahrain",
+      "NBB",
+      "PO Box:106, Road:120, Block:316, Manama, Bahrain TRN: 200000410700002",
+      "# Merchant Advice Transaction Details (Tax Invoice)",
+      "# YUSUF KHALIL ALMOAYED AND SONS",
+      "Statement Date",
+      "12/27/2023",
+      "Shop:74 Road:2802 Block:428 MANAMA KINGDOM OF BAHRAIN",
+      "000017934199",
+      "Merchant Code",
+      "Merchant Name",
+      "Bank Account",
+      "99556464",
+      "200011241300002",
+      "# Standard VAT Rate(10.000 %) applied on all commission: All Currency charged are in BHD.",
+      "This is a transaction advice. check your vouchers against the details above. Please call 1721 4433 in case of a statement to the contrary within 7 days from the date of the advice\" Kindly any",
+      "Merchant Advice Transaction Details (Tax Invoice)"
+    ],
+    "disclaimerText": [],
+    "summaryText": [],
+    "rawLabelValues": {
+      "trn": "200000410700002",
+      "merchantcode": "000017934199",
+      "merchantname": "YUSUFKHALILALMOAYEDANDS",
+      "t": "99556464"
+    },
+    "customerId": null
+  },
+  "notes": [
+    "Local mode score: 0.50",
+    "Local mode requested through opendataloader_pdf.convert(...).",
+    "Hybrid mode score: 0.90",
+    "Hybrid mode requested through opendataloader_pdf.convert(..., hybrid='docling-fast'). Forced OCR must be enabled on the hybrid server process itself.",
+    "OCR fallback used RapidOCR on page 1.",
+    "Rendered page images at high resolution and extracted OCR words with coordinates.",
+    "Structured tables were returned directly by OpenDataLoader."
+  ],
+  "issues": [],
+  "confidence": 0.25,
+  "exports": {
+    "jsonFile": "non_tabular_metadata.json",
+    "csvFiles": [
+      "table_1.csv",
+      "table_2.csv",
+      "table_3.csv"
+    ]
+  }
+}
