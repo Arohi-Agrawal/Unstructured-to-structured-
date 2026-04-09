@@ -14,17 +14,5 @@ services:
       - key: PYTHONUNBUFFERED
         value: "1"
 
-  # Frontend (separate service)
-  # NOTE:
-  # - If your frontend is React/Vite/Next in a different folder, update rootDir/build/staticPublishPath.
-  # - If your current UI is only Jinja templates in this backend, you do not need this service.
-  - type: static
-    name: unstructured-frontend
-    rootDir: frontend
-    buildCommand: npm ci && npm run build
-    staticPublishPath: dist
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+ 
 
